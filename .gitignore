@@ -1,2 +1,2 @@
-software/
-logs/
+middleware/software/*
+middleware/scripts/logs/*
