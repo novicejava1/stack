@@ -23,21 +23,22 @@ Unpacking objects: 100% (50/50), done.
 [root@desktop1 ~]# tree stack
 stack
 ├── middleware
-│   ├── extract
-│   │   └── test.txt
-│   ├── scripts
-│   │   ├── bin
-│   │   │   └── chefWorkstationSetup.sh
-│   │   ├── etc
-│   │   │   └── software_source.txt
-│   │   └── logs
-│   │       └── log.txt
-│   └── software
-│       ├── chefdk.rpm
-│       ├── docker_rpm.rpm
-│       ├── docker_selinux_rpm.rpm
-│       └── vagrant.rpm
+│   ├── extract
+│   │   └── test.txt
+│   ├── scripts
+│   │   ├── bin
+│   │   │   └── chefWorkstationSetup.sh
+│   │   ├── etc
+│   │   │   └── software_source.txt
+│   │   └── logs
+│   │       └── log.txt
+│   └── software
+│       ├── chefdk.rpm
+│       ├── docker_rpm.rpm
+│       ├── docker_selinux_rpm.rpm
+│       └── vagrant.rpm
 └── README.md
+
 
 ### Run the below script to install all the required tools for setting up the workstation chef usage
 [root@desktop1 ~]# ./stack/middleware/scripts/bin/chefWorkstationSetup.sh
