@@ -39,6 +39,5 @@ stack
 │       └── vagrant.rpm
 └── README.md
 
-
 ### Run the below script to install all the required tools for setting up the workstation chef usage
 [root@desktop1 ~]# ./stack/middleware/scripts/bin/chefWorkstationSetup.sh
