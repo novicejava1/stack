@@ -22,7 +22,9 @@ EXTRACT_DIR=$HOME_DIR/extract
 
 
 source $SCRIPTS_DIR/etc/software_source.txt
-
+mkdir -p $SCRIPTS_DIR/logs
+mkdir -p $SOFTWARE_DIR
+touch $SCRIPTS_DIR/logs/log.txt
 
 installChefDk()
 {
