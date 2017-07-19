@@ -3,6 +3,9 @@
 
 ### This script is used for setting up workstation with all the 
 ### required tools for working with chef development kit
+###
+### Author: Sudhir B
+###
 ### List of tools or packages required for this setup are as below
 ### Chef Development Kit
 ### Git Version Control System
